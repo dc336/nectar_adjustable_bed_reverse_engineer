@@ -38,3 +38,13 @@ Code address: 0x000002dc
 String dump:
 
 <img width="769" height="530" alt="image" src="https://github.com/user-attachments/assets/9af80be5-d0d2-4e85-a73a-b7e2447bafda" />
+
+
+
+
+Software notes:
+
+Communications to remote <--> bed use [Enhanced ShockBurst ESB](https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/protocols/esb/index.html). Strings indicate pairing states and status with ESB. Mentions SEGGER, better tool for debugging these chips but cheap CMSIS-DAPS get the job done.
+
+// Probably won't pursue this one. Home Assistant integrated bed will probably come from modifying the bed controller
+
